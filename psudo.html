@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* psudo class : akta dot thake */
+    
+        h1{
+            color: deeppink;
+        }
+       h1:hover{                /* psudo class */
+           color: rgb(12, 12, 12);
+           background-color: lightgreen;
+           height: 100px;
+           width: 800px;
+           padding: 30px;
+       }
+       .middle:focus{        /* psudo class */
+          color: lime;
+       }
+       a{
+           padding: 30px;
+       }
+       a:visited{          /* psudo class */
+           color: rgb(7, 230, 74);
+       }
+       li{
+           font-size: 50px;
+           font-weight: 700;
+       }
+       li:first-child{    /* first-child,last,nth ai gulo psudo class */
+           color: maroon;
+       }
+       li:last-child{
+           color: mediumvioletred;
+           background-color: rgb(165, 133, 120);
+       }
+       li:nth-child(2n){
+           color: palevioletred;    /* even number e dite chaile */
+       }
+       li:nth-child(2n+1){                 /* odd number */
+           background-color: rgb(121, 97, 97);
+           color: rgb(231, 36, 14);
+       }
+       /* psudo element :: dui ta dot thake */
+       h3::before{ 
+           content: " Hello";
+           color: sienna;
+           font-size: 50px;
+       }
+       h3::after{
+           content: "bye";
+       }
+    </style>
+</head>
+<body>
+   <h1>Ramim vaiya is a good boy</h1> 
+   <input type="text">
+   <input class="middle" type="text">
+   <input type="text">
+  <input type="text">
+<a href="https://www.w3schools.com/html/default.asp">visite the html</a>
+<a href="https://github.com/eityislam/mission-portfolio">git link</a>
+<a href="https://web.programming-hero.com/">Programming hero</a>
+<ul>
+    <li>alia</li>
+    <li>kareena</li>
+    <li>dipika</li>
+    <li>prinka</li>
+    <li>sonaksi</li>
+    <li>katrina</li>
+    <li>rani</li>
+    <li>prity</li>
+    <li>sonali</li>
+</ul>
+<h3>headding of the number of-1</h3>
+<h3>headding of the number of-2</h3>
+<h3>headding of the number of-3</h3>
+<h3>headding of the number of-4</h3>
+<h3>headding of the number of-5</h3>
+<h3>headding of the number of-6</h3>
+</body>
+</html>
